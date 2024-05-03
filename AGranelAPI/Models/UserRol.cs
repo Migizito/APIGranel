@@ -8,14 +8,14 @@ namespace AGranelAPI.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int UserRolesID { get; set; }
-        public int UserID { get; set; } // Clave foránea hacia Usuario
-        public int RoleID { get; set; } // Clave foránea hacia Rol
+        public int UsuarioRolID { get; set; }
+        public int UsuarioID { get; set; } // Clave foránea hacia Usuario
+        public int RolID { get; set; } // Clave foránea hacia Rol
         [JsonIgnore]
-        [ForeignKey("UserID")]
-        public User User { get; set; } // Propiedad de navegación hacia Usuario
+        [ForeignKey("UsuarioID")]
+        public Usuario User { get; set; } // Propiedad de navegación hacia Usuario
 
-        [ForeignKey("RoleID")]
+        [ForeignKey("RolID")]
         public Rol Rol { get; set; } // Propiedad de navegación hacia Rol
     }
 }

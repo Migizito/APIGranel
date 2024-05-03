@@ -1,0 +1,614 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\mappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\dto\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\dto\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\dto\\ventacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\dto\\ventacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\dto\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\dto\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\repository\\ventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\repository\\ventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\dto\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\dto\\roldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\dto\\roldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\dto\\productoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\dto\\productoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\dto\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\dto\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\dto\\productocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\dto\\productocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\dto\\detalleventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\dto\\detalleventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\dto\\detalleventacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\dto\\detalleventacreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\userrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\userrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\repository\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\repository\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\apiresponseventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\apiresponseventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\repository\\irepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\repository\\irepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\repository\\irepository\\iventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\repository\\irepository\\iventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|c:\\users\\pc\\source\\repos\\apitesis\\apigranel\\agranelapi\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2E92907-FC15-481C-AC3B-52743E32AC80}|AGranelAPI\\AGranelAPI.csproj|solutionrelative:agranelapi\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\ProductoDTO.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DTO\\ProductoDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\ProductoDTO.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DTO\\ProductoDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:51:58.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "AGranelAPI\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VentaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\VentaRepository.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Repository\\VentaRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\VentaRepository.cs",
+              "RelativeToolTip": "AGranelAPI\\Repository\\VentaRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABAAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\Venta.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\Venta.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\Venta.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\Venta.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAnwAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\UserRegisterDTO.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DTO\\UserRegisterDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\UserRegisterDTO.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DTO\\UserRegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DetalleVenta.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DetalleVenta.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DetalleVenta.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DetalleVenta.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DetalleVenta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingConfig.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\MappingConfig.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\MappingConfig.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\MappingConfig.cs",
+              "RelativeToolTip": "AGranelAPI\\MappingConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\DataContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\DataContext\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\DataContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AGranelAPI\\DataContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\Rol.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\Rol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\Usuario.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AGranelAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAjwMEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductoUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\ProductoUpdateDTO.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DTO\\ProductoUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\ProductoUpdateDTO.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DTO\\ProductoUpdateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VentaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\VentaDTO.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DTO\\VentaDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\VentaDTO.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DTO\\VentaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VentaCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\VentaCreateDTO.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DTO\\VentaCreateDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\VentaCreateDTO.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DTO\\VentaCreateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DTO\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\UserLoginDTO.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DTO\\UserLoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RolDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\RolDTO.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DTO\\RolDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\RolDTO.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DTO\\RolDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "AGranelAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\appsettings.json",
+              "RelativeToolTip": "AGranelAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-03T02:55:06.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VentaController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Controllers\\VentaController.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Controllers\\VentaController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Controllers\\VentaController.cs",
+              "RelativeToolTip": "AGranelAPI\\Controllers\\VentaController.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAArwKQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DTO\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DetalleVentaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\DetalleVentaDTO.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DTO\\DetalleVentaDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\DetalleVentaDTO.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DTO\\DetalleVentaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DetalleVentaCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\DetalleVentaCreateDTO.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DTO\\DetalleVentaCreateDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\DetalleVentaCreateDTO.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DTO\\DetalleVentaCreateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserRol.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\UserRol.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\UserRol.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\UserRol.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\UserRol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductoCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\ProductoCreateDTO.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\DTO\\ProductoCreateDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\DTO\\ProductoCreateDTO.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\DTO\\ProductoCreateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "AGranelAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAADgv68AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Models\\Producto.cs",
+              "RelativeToolTip": "AGranelAPI\\Models\\Producto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\IRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Repository\\IRepository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\IRepository\\IUserRepository.cs",
+              "RelativeToolTip": "AGranelAPI\\Repository\\IRepository\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\Repository.cs",
+              "RelativeToolTip": "AGranelAPI\\Repository\\Repository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\IRepository\\IRepository.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Repository\\IRepository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\IRepository\\IRepository.cs",
+              "RelativeToolTip": "AGranelAPI\\Repository\\IRepository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Program.cs",
+              "RelativeToolTip": "AGranelAPI\\Program.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAASwEQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\IRepository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Repository\\IRepository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\IRepository\\IProductRepository.cs",
+              "RelativeToolTip": "AGranelAPI\\Repository\\IRepository\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "APIResponseVenta.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\APIResponseVenta.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\APIResponseVenta.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\APIResponseVenta.cs",
+              "RelativeToolTip": "AGranelAPI\\APIResponseVenta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IVentaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\IRepository\\IVentaRepository.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Repository\\IRepository\\IVentaRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\IRepository\\IVentaRepository.cs",
+              "RelativeToolTip": "AGranelAPI\\Repository\\IRepository\\IVentaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "AGranelAPI\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "APIResponse.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\APIResponse.cs",
+              "RelativeDocumentMoniker": "AGranelAPI\\APIResponse.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\APITESIS\\APIGranel\\AGranelAPI\\APIResponse.cs",
+              "RelativeToolTip": "AGranelAPI\\APIResponse.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T02:42:29.348Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

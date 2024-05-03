@@ -14,7 +14,7 @@ namespace AGranelAPI.Repository.IRepository
 
         public async Task<Venta?> ObtenerVentaPorId(int ventaId)
         {   
-            var venta = await _context.Ventas.Include(v => v.Vendedor).Include(v => v.DetallesVenta).FirstOrDefaultAsync(v => v.SaleID == ventaId);
+            var venta = await _context.Ventas.Include(v => v.DetallesVenta).FirstOrDefaultAsync(v => v.VentaID == ventaId);
             if(venta != null) 
             {
                 return venta;
@@ -23,7 +23,7 @@ namespace AGranelAPI.Repository.IRepository
         }
         public async Task<IEnumerable<Venta>> ObtenerVentas()
         {
-            return await _context.Ventas.Include(v => v.Vendedor).Include(v => v.DetallesVenta).ToListAsync();
+            return await _context.Ventas.Include(v => v.DetallesVenta).ToListAsync();
         }
 
 

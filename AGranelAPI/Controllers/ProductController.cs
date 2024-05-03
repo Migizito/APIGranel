@@ -66,7 +66,7 @@ namespace AGranelAPI.Controllers
                 }
 
                 //var agranel = AGranelStore.aGranelList.FirstOrDefault(a => a.Id == id);
-                var product = await _productRepo.Obtener(p => p.ProductID == id);
+                var product = await _productRepo.Obtener(p => p.ProductoID == id);
 
                 if (product == null)
                 {
@@ -140,7 +140,7 @@ namespace AGranelAPI.Controllers
                     _response.statusCode = HttpStatusCode.BadRequest;
                     return BadRequest(_response);
                 }
-                var producto = await _productRepo.Obtener(a => a.ProductID == id);
+                var producto = await _productRepo.Obtener(a => a.ProductoID == id);
                 if (producto == null)
                 {
                     _response.IsExitoso = false;
@@ -173,7 +173,7 @@ namespace AGranelAPI.Controllers
                     _response.statusCode = HttpStatusCode.BadRequest;
                     return BadRequest(ModelState);
                 }
-                var producto = await _productRepo.Obtener(p => p.ProductID == id);
+                var producto = await _productRepo.Obtener(p => p.ProductoID == id);
                 if (producto == null)
                 {
                     _response.IsExitoso = false;

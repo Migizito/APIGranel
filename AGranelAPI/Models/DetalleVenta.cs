@@ -7,13 +7,13 @@ namespace AGranelAPI.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int DetailID { get; set; }
-        public int SaleID { get; set; }
-        public int ProductID { get; set; }
+        public int DetalleID { get; set; }
+        public int VentaID { get; set; }
+        public int ProductoID { get; set; }
         public int CantidadVendida { get; set; }
-        [ForeignKey("SaleID")]
+        [ForeignKey("VentaID")]
         public Venta Venta { get; set; } = new Venta();
-        [ForeignKey("ProductID")]
+        [ForeignKey("ProductoID")]
         public Producto Producto { get; set; } = new Producto();
     }
 }

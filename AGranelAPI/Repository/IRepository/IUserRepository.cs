@@ -2,9 +2,9 @@
 
 namespace AGranelAPI.Repository.IRepository
 {
-    public interface IUserRepository : IRepository<User>
+    public interface IUserRepository : IRepository<Usuario>
     {
-        Task<User> Update(User entidad);
-        Task<IEnumerable<User>> ObtenerUsuarios();
+        Task<Usuario> Update(Usuario entidad);
+        Task<IEnumerable<Usuario>> ObtenerUsuarios();
     }
 }

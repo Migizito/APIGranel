@@ -2,7 +2,7 @@
 {
     public class RolDTO
     {
-        public int RoleID { get; set; }
+        public int RolID { get; set; }
         // Otras propiedades del rol según tus necesidades
     }
 

@@ -22,7 +22,7 @@ namespace AGranelAPI.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        public static User user = new User();
+        public static Usuario user = new Usuario();
         private readonly IConfiguration _config;
         private readonly ILogger<AuthController> _logger;
         private readonly IMapper _mapper;
@@ -40,7 +40,7 @@ namespace AGranelAPI.Controllers
             _httpContextAccessor = httpContextAccessor;
             _response = new ();
         }
-        private string GenerateToken(User user, List<Rol> roles)
+        private string GenerateToken(Usuario user, List<Rol> roles)
         {
             var claims = new List<Claim>
     {
@@ -84,7 +84,7 @@ namespace AGranelAPI.Controllers
                 return BadRequest("Usuario no encontrado");
             }
 
-            if (!BCrypt.Net.BCrypt.Verify(request.Password, user.Password))
+            if (!BCrypt.Net.BCrypt.Verify(request.Contraseña, user.Contraseña))
             {
                 return BadRequest("Contraseña incorrecta");
             }
@@ -97,8 +97,8 @@ namespace AGranelAPI.Controllers
             // Crear una clase de respuesta para contener el nombre del usuario y el token
             var response = new LoginDTO
             {
-                UserId = user.UserID,
-                UserName = user.Username, // Ajusta según la propiedad real que contenga el nombre del usuario
+                UsuarioID = user.UsuarioID,
+                Username = user.Username, // Ajusta según la propiedad real que contenga el nombre del usuario
                 Token = token
             };
 
@@ -111,7 +111,7 @@ namespace AGranelAPI.Controllers
         {
             try
             {
-                string passwordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
+                string passwordHash = BCrypt.Net.BCrypt.HashPassword(request.Contraseña);
                 if (!ModelState.IsValid)
                 {
                     return BadRequest(ModelState);
@@ -122,18 +122,17 @@ namespace AGranelAPI.Controllers
                 }
                 else
                 {
-                    var user = new User
+                    var user = new Usuario
                     {
                         Username = request.Username,
-                        Email = request.Email,
-                        Password = passwordHash
+                        Contraseña = passwordHash
                     };
                     user.Roles = new List<UserRol>
             {
                 new UserRol
                 {
-                    UserID = user.UserID,
-                    RoleID = request.Rol
+                    UsuarioID = user.UsuarioID,
+                    RolID = request.Rol
                 }
             };
 
@@ -183,14 +182,13 @@ namespace AGranelAPI.Controllers
                 foreach (var user in users)
                 {
                     var userDTO = new UserDTO();
-                    userDTO.UserID = user.UserID;
+                    userDTO.UsuarioID = user.UsuarioID;
                     userDTO.Username = user.Username;
-                    userDTO.Email = user.Email;
                     userDTO.Roles = new List<RolDTO>();
                     foreach (var rol in user.Roles) 
                     {
                         var rolDTO = new RolDTO();
-                        rolDTO.RoleID = rol.RoleID;
+                        rolDTO.RolID = rol.RolID;
                         userDTO.Roles.Add(rolDTO);
                     }
                     userList.Add(userDTO);
@@ -231,7 +229,7 @@ namespace AGranelAPI.Controllers
                 }
 
                 //var agranel = AGranelStore.aGranelList.FirstOrDefault(a => a.Id == id);
-                var user = await _userRepo.Obtener(u => u.UserID == id);
+                var user = await _userRepo.Obtener(u => u.UsuarioID == id);
 
                 if (user == null)
                 {

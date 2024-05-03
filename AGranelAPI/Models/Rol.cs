@@ -5,7 +5,7 @@ namespace AGranelAPI.Models
     public class Rol
     {
         [Key]
-        public int RoleID { get; set; }
+        public int RolID { get; set; }
         public string NombreDelRol { get; set; }
         public List<UserRol> Usuarios { get; set; }
     }

@@ -42,17 +42,16 @@ namespace AGranelAPI.Controllers
                 foreach (var venta in ventas)
                 {
                     var ventasDTO = new VentaDTO();
-                    ventasDTO.SaleId = venta.SaleID;
+                    ventasDTO.VentaID = venta.VentaID;
                     string fechaFormateada = venta.FechaDeVenta.ToString("yyyy-MM-dd");
                     ventasDTO.FechaDeVenta = fechaFormateada;
                     ventasDTO.Monto = venta.Monto;
-                    ventasDTO.VendedorId = venta.VendedorID;
                     ventasDTO.DetalleVentas = new List<DetalleVentaDTO>();
                     foreach (var detalle in venta.DetallesVenta)
                     {
                         var detalleDTO = new DetalleVentaDTO();
-                        detalleDTO.DetailID = detalle.DetailID;
-                        detalleDTO.ProductID = detalle.ProductID;
+                        detalleDTO.DetalleID = detalle.DetalleID;
+                        detalleDTO.ProductoID = detalle.ProductoID;
                         detalleDTO.CantidadVendida = detalle.CantidadVendida;
                         ventasDTO.DetalleVentas.Add(detalleDTO);
                     }
@@ -99,14 +98,13 @@ namespace AGranelAPI.Controllers
 
                 var ventaDTO = new VentaDTO
                 {
-                    SaleId = venta.SaleID,
+                    VentaID = venta.VentaID,
                     FechaDeVenta = venta.FechaDeVenta.ToString("yyyy-MM-dd"),
                     Monto = venta.Monto,
-                    VendedorId = venta.VendedorID,
                     DetalleVentas = venta.DetallesVenta.Select(detalle => new DetalleVentaDTO
                     {
-                        DetailID = detalle.DetailID,
-                        ProductID = detalle.ProductID,
+                        DetalleID = detalle.DetalleID,
+                        ProductoID = detalle.ProductoID,
                         CantidadVendida = detalle.CantidadVendida
                     }).ToList()
                 };
@@ -142,7 +140,7 @@ namespace AGranelAPI.Controllers
 
                 foreach (var detalle in createDTO.DetallesVenta)
                 {
-                    var producto = await _productRepo.Obtener(p => p.ProductID == detalle.ProductID);
+                    var producto = await _productRepo.Obtener(p => p.ProductoID == detalle.ProductoID);
 
                     if (producto != null)
                     {
@@ -160,7 +158,7 @@ namespace AGranelAPI.Controllers
                     }
                     else
                     {
-                        return BadRequest($"El producto con ID {detalle.ProductID} no se encuentra en la base de datos.");
+                        return BadRequest($"El producto con ID {detalle.ProductoID} no se encuentra en la base de datos.");
                     }
                 }
                 model.Monto = montoTotal;
@@ -168,7 +166,7 @@ namespace AGranelAPI.Controllers
                 _response.Resultado = _mapper.Map<VentaDTO>(model);
                 _response.statusCode = HttpStatusCode.Created;
                 _response.IsExitoso = true;
-                return CreatedAtAction("GetVenta", new { id = model.SaleID }, _response);
+                return CreatedAtAction("GetVenta", new { id = model.VentaID }, _response);
             }
             catch (Exception ex)
             {
@@ -192,7 +190,7 @@ namespace AGranelAPI.Controllers
                     _response.statusCode = HttpStatusCode.BadRequest;
                     return BadRequest(_response);
                 }
-                var venta = await _ventaRepo.Obtener(v => v.SaleID == id);
+                var venta = await _ventaRepo.Obtener(v => v.VentaID == id);
                 if (venta == null)
                 {
                     _response.IsExitoso = false;
@@ -225,7 +223,7 @@ namespace AGranelAPI.Controllers
                     _response.statusCode = HttpStatusCode.BadRequest;
                     return BadRequest(ModelState);
                 }
-                var venta = await _ventaRepo.Obtener(v => v.SaleID == id);
+                var venta = await _ventaRepo.Obtener(v => v.VentaID == id);
                 if (venta == null)
                 {
                     _response.IsExitoso = false;
